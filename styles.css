@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #FEAC5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.main{
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255,255,255, 0.3),
+        rgba(255,255,255,0.1)
+    );
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 175px;
+    margin: 100px auto;
+    position: relative;
+    padding: 30px;
+    border-radius: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+
+
+.clock{
+    background-color: transparent;
+    text-align: center;
+    font-size: 50px;
+    height: 100%;
+    padding-top: 25px;
+    font-family: 'Krona One', sans-serif;
+    color: white;
+    border-radius: 4px;
+}
